@@ -1,0 +1,56 @@
+[23.987293243] 2020-02-06 21:04:15,255 - INFO - launcher: Starting sanity checks
+[24.986028671] 2020-02-06 21:04:15,256 - INFO - launcher: Checking for Python 3.5+
+[24.986028671] 2020-02-06 21:04:15,256 - INFO - launcher: Checking console encoding
+[24.986028671] 2020-02-06 21:04:15,256 - INFO - launcher: Setting console encoding to UTF-8
+[24.986028671] 2020-02-06 21:04:15,256 - INFO - launcher: Ensuring we're in the right environment
+[25.985240936] 2020-02-06 21:04:15,257 - INFO - launcher: Adding local bins/ folder to path
+[538.692712784] 2020-02-06 21:04:15,770 - INFO - launcher: Required checks passed.
+[539.692640305] 2020-02-06 21:04:15,771 - INFO - launcher: Optional checks passed.
+[539.692640305] 2020-02-06 21:04:15,771 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.8049721717834473] 2020-02-06 21:04:17,036 - WARNING - musicbot.config | In config.py::MainThread(8032), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.8049721717834473] 2020-02-06 21:04:17,036 - INFO - musicbot.config | In config.py::MainThread(8032), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.8069703578948975] 2020-02-06 21:04:17,038 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 225 in _setup_logging: Set logging level to INFO
+[1.8089692592620850] 2020-02-06 21:04:17,040 - DEBUG - musicbot.json | In json.py::MainThread(8032), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.0928061008453369] 2020-02-06 21:04:17,324 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 90 in __init__: Starting MusicBot version_unknown
+[2.0928061008453369] 2020-02-06 21:04:17,324 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[5.2558825016021729] 2020-02-06 21:04:20,487 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 951 in on_ready: Connection established, ready to go.
+[5.2558825016021729] 2020-02-06 21:04:20,487 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 342 in _cache_app_info: Caching app info
+[5.5128839015960693] 2020-02-06 21:04:20,744 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.5158379077911377] 2020-02-06 21:04:20,747 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 789 in _scheck_server_permissions: Checking server permissions
+[5.5168373584747314] 2020-02-06 21:04:20,748 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.5168373584747314] 2020-02-06 21:04:20,748 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 797 in _scheck_configs: Validating config
+[5.5168373584747314] 2020-02-06 21:04:20,748 - DEBUG - musicbot.config | In config.py::MainThread(8032), line 236 in async_validate: Validating options...
+[5.5168373584747314] 2020-02-06 21:04:20,748 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 800 in _scheck_configs: Validating permissions config
+[5.5168373584747314] 2020-02-06 21:04:20,748 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8032), line 94 in async_validate: Validating permissions...
+[5.5168373584747314] 2020-02-06 21:04:20,748 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 968 in on_ready: Connected: 674197967028355082/Vincent-BOT#0577
+[5.5178456306457520] 2020-02-06 21:04:20,749 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 976 in on_ready: Owner:     579196200633237528/Vincent | 지성#5554
+
+[5.5178456306457520] 2020-02-06 21:04:20,749 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 979 in on_ready: Guild List:
+[5.5188314914703369] 2020-02-06 21:04:20,750 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 983 in on_ready:  - PlayersLnges BGS
+[5.5188314914703369] 2020-02-06 21:04:20,750 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 1039 in on_ready: Not bound to any text channels
+[5.5198338031768799] 2020-02-06 21:04:20,751 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 1052 in on_ready: Autojoining voice channels:
+[5.5198338031768799] 2020-02-06 21:04:20,751 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 1053 in <listcomp>:  - PlayersLnges BGS/노래 Music
+[5.5208306312561035] 2020-02-06 21:04:20,752 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 281 in _join_startup_channels: Attempting to join PlayersLnges BGS/노래 Music
+[6.1512591838836670] 2020-02-06 21:04:21,383 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 297 in _join_startup_channels: Joined PlayersLnges BGS/노래 Music
+[6.1522586345672607] 2020-02-06 21:04:21,384 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 532 in on_player_stop: Running on_player_stop
+[97.9060060977935791] 2020-02-06 21:05:53,137 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 2706 in on_message: 579196200633237528/Vincent | 지성#5554: .play 노는게 제일좋아
+[103.8109891414642334] 2020-02-06 21:05:59,042 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:노는게 제일좋아', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '노는게 제일좋아', 'webpage_url_basename': '노는게 제일좋아', 'extractor_key': 'Generic'}
+[116.8099863529205322] 2020-02-06 21:06:12,041 - DEBUG - musicbot.entry | In entry.py::MainThread(8032), line 56 in get_ready_future: Created future for None
+[116.8109858036041260] 2020-02-06 21:06:12,042 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 624 in on_player_entry_added: Running on_player_entry_added
+[116.8109858036041260] 2020-02-06 21:06:12,042 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 709 in serialize_queue: Serializing queue for 663265075506970634
+[116.8360159397125244] 2020-02-06 21:06:12,067 - INFO - musicbot.entry | In entry.py::MainThread(8032), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=E0W5sJZ2d64
+[118.8009197711944580] 2020-02-06 21:06:14,032 - DEBUG - musicbot.entry | In entry.py::MainThread(8032), line 56 in get_ready_future: Created future for None
+[122.7053310871124268] 2020-02-06 21:06:17,937 - INFO - musicbot.entry | In entry.py::MainThread(8032), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=E0W5sJZ2d64
+[122.7103254795074463] 2020-02-06 21:06:17,942 - FFMPEG - musicbot.player | In player.py::MainThread(8032), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-E0W5sJZ2d64-1.m4a
+[122.7602982521057129] 2020-02-06 21:06:17,992 - DEBUG - musicbot.player | In player.py::MainThread(8032), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000002CDA49A3DD8> using <discord.voice_client.VoiceClient object at 0x000002CDA49AD400>
+[122.7612974643707275] 2020-02-06 21:06:17,993 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 460 in on_player_play: Running on_player_play
+[122.7612974643707275] 2020-02-06 21:06:17,993 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 709 in serialize_queue: Serializing queue for 663265075506970634
+[144.9424717426300049] 2020-02-06 21:06:40,174 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 2936 in on_voice_state_update: Pausing in PlayersLnges BGS/노래 Music (empty channel)
+[144.9434728622436523] 2020-02-06 21:06:40,175 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 527 in on_player_pause: Running on_player_pause
+[145.2789478302001953] 2020-02-06 21:06:40,510 - INFO - musicbot.bot | In bot.py::MainThread(8032), line 2706 in on_message: 579196200633237528/Vincent | 지성#5554: .skip
+[145.3489596843719482] 2020-02-06 21:06:40,580 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[145.6525876522064209] 2020-02-06 21:06:40,884 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 709 in serialize_queue: Serializing queue for 663265075506970634
+[145.6536033153533936] 2020-02-06 21:06:40,885 - DEBUG - musicbot.bot | In bot.py::MainThread(8032), line 532 in on_player_stop: Running on_player_stop
